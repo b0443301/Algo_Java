@@ -1,0 +1,20 @@
+package selection_sort;
+
+import java.util.Scanner;
+
+public class main {
+	public static void main(String[] argv) {
+		int[] arr = null;
+		int temp = 0;
+		Scanner scanner = new Scanner(System.in);
+		for (int i = 0; i < 10; i++) {
+			arr[i] = scanner.nextInt();
+			if (arr[i+1] > arr[i]) {
+				temp = i;
+				i=i+1;
+				temp=i+1 ;
+			}
+		}
+
+	}
+}

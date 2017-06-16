@@ -1,0 +1,9 @@
+package selection_sort;
+
+public class main {
+	int arr[10];
+	
+	
+	
+
+}
